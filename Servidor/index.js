@@ -93,8 +93,7 @@ const Tiempo = sequelize.define('Tiempo',{
     }
 });
 app.post('/AgregarTiempo', (req,res)=>{
-    console.log(req.body);
-    console.log("HOLA CACAS")    
+    console.log(req.body);    
     Tiempo.create({
         TiempoInicio: req.body.TiempoInicio,
         TiempoFinal: req.body.TiempoFinal,
