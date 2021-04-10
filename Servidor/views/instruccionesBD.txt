@@ -1,0 +1,10 @@
+Base de datos: 
+    nombre: TareaRedes
+    Tabla1: TablaRedes
+        NombreUsuario varchar(50)
+        Password varchar(50)
+    Tabla2: Tiempo
+        TiempoInicio varchar(50)
+        TiempoFinal varchar(50)
+        usuario varchar(50)
+        id int ----- (is identiy)   yes
