@@ -22,7 +22,7 @@ public class Red : MonoBehaviour
 
     //Campos con la información nombre y puntos
     public Text textoNombre;
-    public Text textoContraseña;
+    public Text textoContrasenia;
     public static String nombre;
     //Escribir
     public void EscribirTextoPlano()     //Botón
@@ -37,7 +37,7 @@ public class Red : MonoBehaviour
         WWWForm forma = new WWWForm();
 
         forma.AddField("usuarioUsuarioo", textoNombre.text);
-        forma.AddField("passwordUsuarioo", textoContraseña.text);
+        forma.AddField("passwordUsuarioo", textoContrasenia.text);
 
         UnityWebRequest request = UnityWebRequest.Post("http://Localhost:8080/BuscarUsuario", forma); //
         yield return request.SendWebRequest();   //Regresa, ejecuta, espera...

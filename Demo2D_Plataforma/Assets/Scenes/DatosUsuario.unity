@@ -1600,4 +1600,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultado: {fileID: 1458689321}
   textoNombre: {fileID: 1164873102}
-  "textoContrase\xF1a": {fileID: 866440253}
+  textoContrasenia: {fileID: 866440253}
