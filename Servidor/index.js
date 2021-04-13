@@ -38,11 +38,10 @@ app.get('/registro', (req,res)=>{
     res.sendFile(path.join(__dirname,'views','registro.html'))
 });
 
-app.post('/registro', (req,res)=>{
-    console.log(req.body);    
+app.post('/registro', (req,res)=>{    
     TablaRedes.create({
-        NombreUsuario: req.body.usuarioUsuario,
-        Password: req.body.passwordUsuario
+        NombreUsuario: req.body.usuarioUsuarioo,
+        Password: req.body.passwordUsuarioo
     }).then(resultado=>console.log("Registro exitoso"))
       .catch(error=>console.log(error));
       res.send('Registro exitoso')

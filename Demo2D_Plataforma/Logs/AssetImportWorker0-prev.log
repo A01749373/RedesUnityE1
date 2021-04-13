@@ -15,11 +15,11 @@ C:/Users/Matt Aullido/Documents/GitHub/RedesUnityE1/Demo2D_Plataforma
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62281
+53950
 Successfully changed project path to: C:/Users/Matt Aullido/Documents/GitHub/RedesUnityE1/Demo2D_Plataforma
 C:/Users/Matt Aullido/Documents/GitHub/RedesUnityE1/Demo2D_Plataforma
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.97 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 46.08 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Unity/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,79 +35,79 @@ Initialize mono
 Mono path[0] = 'C:/Unity/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Unity/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Unity/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Unity/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001913 seconds.
+Registered in 0.002112 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.28 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 43.72 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.092 seconds
+- Completed reload, in  1.177 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002465 seconds.
+Registered in 0.002665 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 46.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.907 seconds
+- Completed reload, in  1.029 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.9 MB.
 System memory in use after: 85.0 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2253.
-Total: 2.136900 ms (FindLiveObjects: 0.187300 ms CreateObjectMapping: 0.075000 ms MarkObjects: 1.803700 ms  DeleteObjects: 0.069400 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2254.
+Total: 2.331300 ms (FindLiveObjects: 0.228000 ms CreateObjectMapping: 0.079100 ms MarkObjects: 1.952800 ms  DeleteObjects: 0.068900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/DatosUsuario.unity
-  artifactKey: Guid(b6a4209508affad4ab29a9e49cfd6127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/DatosUsuario.unity using Guid(b6a4209508affad4ab29a9e49cfd6127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd2e95291125f6f5a64f296ab1b26c8') in 0.014852 seconds
-  Import took 0.017626 seconds .
+  path: Assets/Scripts
+  artifactKey: Guid(292d2e5ba27ef814fab21cc772031af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(292d2e5ba27ef814fab21cc772031af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573135864bb60b6116b887fcd7b2b378') in 0.011223 seconds
+  Import took 0.014518 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.161352 seconds.
-  path: Assets/Scenes/EscenaMapa.unity
-  artifactKey: Guid(56b85c0409bd343408d914fd9d8e0698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/EscenaMapa.unity using Guid(56b85c0409bd343408d914fd9d8e0698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e9da8f108a6cf7c92156c5f092a74f') in 0.007105 seconds
-  Import took 0.009976 seconds .
+  Time since last request: 4.138014 seconds.
+  path: Assets/Scripts/SaludPersonaje.cs
+  artifactKey: Guid(39c79c624ca660642ae92addf19d020a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SaludPersonaje.cs using Guid(39c79c624ca660642ae92addf19d020a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999d0e02ad9647917c39e9187ef1b691') in 0.051153 seconds
+  Import took 0.054279 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.056644 seconds.
-  path: Assets/Scenes/EscenaMenu.unity
-  artifactKey: Guid(48db4507354c50f40b05f1e519b92dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/EscenaMenu.unity using Guid(48db4507354c50f40b05f1e519b92dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ead1da9bd92de685050a8d2f1f7c5c') in 0.006161 seconds
-  Import took 0.008778 seconds .
+  Time since last request: 7.681541 seconds.
+  path: Assets/Scripts/Red.cs
+  artifactKey: Guid(ea5f8e0cfea938f4183a6011b1fb0dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Red.cs using Guid(ea5f8e0cfea938f4183a6011b1fb0dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb36818164670b06367ff5ce2ded96c') in 0.006246 seconds
+  Import took 0.009097 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.125994 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0316215447fbe1f9941911c91c79f544') in 0.006447 seconds
-  Import took 0.009055 seconds .
+  Time since last request: 204.278721 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(0543eb38ccf3af24aa440f90214cf5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(0543eb38ccf3af24aa440f90214cf5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbb76f5453edf3e342dd669bc2dbd74') in 0.007349 seconds
+  Import took 0.010998 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002270 seconds.
+Registered in 0.002363 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
@@ -116,15 +116,38 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.827 seconds
+- Completed reload, in  0.794 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1800 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.5 MB.
 System memory in use after: 84.6 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2256.
-Total: 3.292700 ms (FindLiveObjects: 0.345100 ms CreateObjectMapping: 0.114100 ms MarkObjects: 2.800100 ms  DeleteObjects: 0.031400 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2257.
+Total: 1.939000 ms (FindLiveObjects: 0.176300 ms CreateObjectMapping: 0.072400 ms MarkObjects: 1.666900 ms  DeleteObjects: 0.022400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002349 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.788 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1800 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 1.791700 ms (FindLiveObjects: 0.168800 ms CreateObjectMapping: 0.063000 ms MarkObjects: 1.536700 ms  DeleteObjects: 0.021800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
