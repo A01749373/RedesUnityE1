@@ -3,16 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /*
- * Permite modificar el parámetro velocidad del Animator
+ * Permite modificar el parametro velocidad del Animator
  * Para hacer las transiciones 
- * Autor: Amy Murakami Tsutsumi 
- */
+ * Autor: Equipo 1
+ * Ariadna Jocelyn GuzmÃ¡n JimÃ©nez A01749373
+ * Jorge ChÃ¡vez Badillo A01749448
+ * Liam Garay Monroy A01750632
+ * Amy Murakami Tsutsumi A01750185
+ * Andrea Vianey DÃ­az Ãlvarez A01750147
+ */ 
 public class CambiaAnimacion : MonoBehaviour
 {
     private Rigidbody2D rb2D;
     //Animator
-    private Animator anim; //Animator, actualizar el parámetro velocidad
-    //SpriteRenderer, es para cambiar la orientación, FlipX FlipY
+    private Animator anim; //Animator, actualizar el parï¿½metro velocidad
+    //SpriteRenderer, es para cambiar la orientaciï¿½n, FlipX FlipY
     private SpriteRenderer sprRenderer;
 
     // Start is called before the first frame update
@@ -30,7 +35,7 @@ public class CambiaAnimacion : MonoBehaviour
         float velocidad = Mathf.Abs(rb2D.velocity.x);
         anim.SetFloat(name:"velocidad", velocidad);
         
-        //Orientación
+        //Orientaciï¿½n
         if(rb2D.velocity.x > 0)
         {
             sprRenderer.flipX = false;

@@ -7,8 +7,13 @@ using UnityEngine.UI;
 using UnityEngine.Networking;
 
 /*
- * Detecta la colisi�n del enemigo con el personaje
+ * Detecta la colision del enemigo con el personaje
  * Autor: Equipo 1
+ * Ariadna Jocelyn Guzmán Jiménez A01749373
+ * Jorge Chávez Badillo A01749448
+ * Liam Garay Monroy A01750632
+ * Amy Murakami Tsutsumi A01750185
+ * Andrea Vianey Díaz Álvarez A01750147
  */
 public class Enemigo : MonoBehaviour
 {

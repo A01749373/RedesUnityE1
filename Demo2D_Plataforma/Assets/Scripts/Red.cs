@@ -10,6 +10,11 @@ using UnityEngine.SceneManagement;
 /*
  * Muestra el uso de UnityWebRequest para comunicarse con un servidor en la red
  * Autor: Equipo 1
+ * Ariadna Jocelyn Guzmán Jiménez A01749373
+ * Jorge Chávez Badillo A01749448
+ * Liam Garay Monroy A01750632
+ * Amy Murakami Tsutsumi A01750185
+ * Andrea Vianey Díaz Álvarez A01750147
  */
 
 public class Red : MonoBehaviour

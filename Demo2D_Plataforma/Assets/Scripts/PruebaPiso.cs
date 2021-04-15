@@ -3,8 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /*
- * Autor: Amy Murakami Tsutsumi
- * Prueba si el collider est· DENTRO o FUERA de una plataforma
+ * Prueba si el collider este DENTRO o FUERA de una plataforma
+ * Autor: Equipo 1
+ * Ariadna Jocelyn Guzm√°n Jim√©nez A01749373
+ * Jorge Ch√°vez Badillo A01749448
+ * Liam Garay Monroy A01750632
+ * Amy Murakami Tsutsumi A01750185
+ * Andrea Vianey D√≠az √Ålvarez A01750147
  */
 
 public class PruebaPiso : MonoBehaviour
@@ -17,7 +22,7 @@ public class PruebaPiso : MonoBehaviour
         if (other.gameObject.tag != "Moneda")
         {
             estaEnPiso = true;
-            //print(message: "Est· en piso");
+            //print(message: "EstÔøΩ en piso");
         }
 
     }
@@ -26,6 +31,6 @@ public class PruebaPiso : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         estaEnPiso = false;
-        //print(message: "No est· en piso");
+        //print(message: "No estÔøΩ en piso");
     }
 }

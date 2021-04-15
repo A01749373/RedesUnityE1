@@ -2,15 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 /*
- * Detecta la colisiÛn de la moneda con el personaje
- * Autora: Amy Murakami Tsutsumi
+ * Detecta la colisiÔøΩn de la moneda con el personaje
+ * Autor: Equipo 1
+ * Ariadna Jocelyn Guzm√°n Jim√©nez A01749373
+ * Jorge Ch√°vez Badillo A01749448
+ * Liam Garay Monroy A01750632
+ * Amy Murakami Tsutsumi A01750185
+ * Andrea Vianey D√≠az √Ålvarez A01750147
  */
 public class Moneda : MonoBehaviour
 {
     //Referencia al Audio Source
     public AudioSource efectoMoneda;
 
-    //La moneda colisionÛ con otro objeto (colliders)
+    //La moneda colisionÔøΩ con otro objeto (colliders)
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -22,8 +27,8 @@ public class Moneda : MonoBehaviour
             efectoMoneda.Play();
             //Dejar de dibujar la moneda
             GetComponent<SpriteRenderer>().enabled = false;
-            //Prender la explosiÛn
-            //moneda.transform.hijo del transform (transform de la explosiÛn).explosiÛn.Se hace activa
+            //Prender la explosiÔøΩn
+            //moneda.transform.hijo del transform (transform de la explosiÔøΩn).explosiÔøΩn.Se hace activa
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
 
             Destroy(gameObject, 0.5f);

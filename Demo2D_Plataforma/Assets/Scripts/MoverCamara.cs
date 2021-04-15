@@ -2,8 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 /*
- * Permita que la c�mara siga al personaje
- * Autora: Amy Murakami Tsutsumi
+ * Permita que la c�mara siga al personaje
+ * Autor: Equipo 1
+ * Ariadna Jocelyn Guzmán Jiménez A01749373
+ * Jorge Chávez Badillo A01749448
+ * Liam Garay Monroy A01750632
+ * Amy Murakami Tsutsumi A01750185
+ * Andrea Vianey Díaz Álvarez A01750147
  */
 public class MoverCamara : MonoBehaviour
 {

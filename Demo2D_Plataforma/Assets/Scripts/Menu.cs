@@ -3,9 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 /*
- * Controla el menú
- * Agregamos los métodos para atender los componentes del menú
- * Autora: Amy Murakami Tsutsumi
+ * Controla el menï¿½
+ * Agregamos los mï¿½todos para atender los componentes del menï¿½
+ * Autor: Equipo 1
+ * Ariadna Jocelyn GuzmÃ¡n JimÃ©nez A01749373
+ * Jorge ChÃ¡vez Badillo A01749448
+ * Liam Garay Monroy A01750632
+ * Amy Murakami Tsutsumi A01750185
+ * Andrea Vianey DÃ­az Ãlvarez A01750147
  */
 public class Menu : MonoBehaviour
 {
@@ -17,7 +22,7 @@ public class Menu : MonoBehaviour
     public void IniciarJuego()
     {
         //Cambiar de escena
-        //print(message: "Click al botón");
+        //print(message: "Click al botï¿½n");
 
         //Cambiar escena
         SceneManager.LoadScene("EscenaMapa");

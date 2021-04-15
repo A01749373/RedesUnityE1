@@ -1,14 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+ * Autor: Equipo 1
+ * Ariadna Jocelyn Guzmán Jiménez A01749373
+ * Jorge Chávez Badillo A01749448
+ * Liam Garay Monroy A01750632
+ * Amy Murakami Tsutsumi A01750185
+ * Andrea Vianey Díaz Álvarez A01750147
+ */
 public class MoverPersonaje : MonoBehaviour
 {
     // VARIABLES 
     public float maxVelocidadX = 10;    //Mov. horizontal  <-   ->
     public float maxVelocidadY = 7;    //Mov. vertical ^
 
-    private Rigidbody2D rigidbody;      // Para f�sica
+    private Rigidbody2D rigidbody;      // Para f�sica
 
 
     //METODOS
@@ -27,7 +34,7 @@ public class MoverPersonaje : MonoBehaviour
 
         rigidbody.velocity = new Vector2(movHorizontal * maxVelocidadX, rigidbody.velocity.y);
 
-        // Salto (Despu�s lo vamos a resolver con JUMP)
+        // Salto (Despu�s lo vamos a resolver con JUMP)
         float movVertical = Input.GetAxis("Vertical");
         if (movVertical > 0 && PruebaPiso.estaEnPiso)
         {
